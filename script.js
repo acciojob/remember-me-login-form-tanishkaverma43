@@ -3,7 +3,7 @@ document.getElementById('submit').addEventListener('click', function(event) {
     
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
-    var remember = document.getElementById('remember').checked;
+    var remember = document.getElementById('checkbox').checked;
     
     if (remember) {
         localStorage.setItem('username', username);
