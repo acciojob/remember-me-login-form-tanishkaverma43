@@ -1,4 +1,3 @@
-//your JS code here. If required.
 document.getElementById('submit').addEventListener('click', function(event) {
     event.preventDefault();
     
